@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search GitHub Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/images/read-more.png">
+        <img style="position: absolute; left: 60px;" src="/images/github-logo.png">
+        <p>GitHub Users</p>
+        <input type="text" id="searchInput" value="Type [/] to search                                                   | >_" onfocus="clearInput()" onblur="restoreInput()" onkeypress="handleKeyPress(event)">
+        <img style="position: absolute; right: 110px;" src="/images/node.png">
+        <img style="position: absolute; right: 70px;" src="/images/share.png">
+        <img style="position: absolute; right: 150px;" src="/images/webpage.png">
+        <img style="position: absolute; right: 200px;" src="/images/webpage (1).png">
+        <img src="/images/user.png">
+    </header>
+    <div class="container">
+        <div class="user-info" id="user-info"></div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
